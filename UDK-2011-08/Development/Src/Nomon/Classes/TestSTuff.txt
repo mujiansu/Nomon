@@ -1,0 +1,30 @@
+
+//Set Custom Default Mesh
+var SkeletalMesh defaultMesh;
+var MaterialInterface defaultMaterial0;
+var MaterialInterface defaultMaterial1;
+var AnimTree defaultAnimTree;
+var array<AnimSet> defaultAnimSet;
+var AnimNodeSequence defaultAnimSeq;
+var PhysicsAsset defaultPhysicsAsset;
+
+// Set Pawn's Mesh
+public function resetMesh()
+{
+self.Pawn.Mesh.SetSkeletalMesh(defaultMesh);
+self.Pawn.Mesh.SetMaterial(0,defaultMaterial0);
+self.Pawn.Mesh.SetMaterial(1,defaultMaterial1);
+self.Pawn.Mesh.SetPhysicsAsset(defaultPhysicsAsset);
+self.Pawn.Mesh.AnimSets=defaultAnimSet;
+self.Pawn.Mesh.SetAnimTreeTemplate(defaultAnimTree);
+}
+
+
+
+defaultMesh=SkeletalMesh'NOM-LevelTest.'
+defaultMaterial0
+defaultMaterial1
+defaultAnimTree
+defaultAnimSet
+defaultAnimSeq
+defaultPhysicsAsset

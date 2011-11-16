@@ -5348,7 +5348,7 @@ defaultproperties
 		LightEnvironment=MyLightEnvironment
 		bOverrideAttachmentOwnerVisibility=true
 		bAcceptsDynamicDecals=FALSE
-		AnimTreeTemplate=AnimTree'CH_AnimHuman_Tree.AT_CH_Human'
+		AnimTreeTemplate=AnimTree'NomonAvatar.Nomon_Golem_AnimTree'
 		bHasPhysicsAssetInstance=true
 		TickGroup=TG_PreAsyncWork
 		MinDistFactorForKinematicUpdate=0.2
@@ -5447,7 +5447,7 @@ defaultproperties
 	CrouchedPct=+0.4
 	BaseEyeHeight=38.0
 	EyeHeight=38.0
-	GroundSpeed=440.0
+	GroundSpeed=350.0
 	AirSpeed=440.0
 	WaterSpeed=220.0
 	DodgeSpeed=600.0

@@ -1,0 +1,17 @@
+//Maya 2011 x64 Project Definition
+
+workspace -fr "offlineEdit" "scenes/edits";
+workspace -fr "FBX" "exported";
+workspace -fr "scene" "scenes";
+workspace -fr "DAE_FBX export" "exported";
+workspace -fr "movie" "data";
+workspace -fr "DAE_FBX" "exported";
+workspace -fr "mayaAscii" "scenes";
+workspace -fr "textures" "textures";
+workspace -fr "particles" "particles";
+workspace -fr "mayaBinary" "scenes";
+workspace -fr "images" "images";
+workspace -fr "autoSave" "autosave";
+workspace -fr "templates" "assets";
+workspace -fr "FBX export" "exported";
+workspace -fr "sourceImages" "sourceimages";

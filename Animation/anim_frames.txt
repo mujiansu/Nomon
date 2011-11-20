@@ -1,0 +1,5 @@
+		start		end
+
+run cycle:	1		120
+idle:		123		1200
+jump:		1201		1325

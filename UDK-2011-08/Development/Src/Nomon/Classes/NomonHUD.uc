@@ -43,23 +43,23 @@ function DrawString(string text, int X, int Y, int R, int G, int B, int A)
  
 function DrawGameHud()
 {
-    local NomonPlayerController PC;
+    //local NomonPlayerController PC;
  
     // Type cast the PlayerOwner property of the HUD to NomonPlayerController
-    PC = NomonPlayerController(PlayerOwner);
+    //PC = NomonPlayerController(PlayerOwner);
  
     if (!PlayerOwner.IsDead())
     {
            // Display health bar only when the player hasn't died
            if(PlayerOwner.Pawn.HealthMax > 0)
            {
-             DrawHealthBar(float(PlayerOwner.Pawn.Health) / float(PlayerOwner.Pawn.HealthMax));
+             //DrawHealthBar(float(PlayerOwner.Pawn.Health) / float(PlayerOwner.Pawn.HealthMax));
            }
     }
  
         // Always display other information
-    DrawString("Coins: "$PC.NOMCollected$"/"$PC.NOMNeededThisLevel,20,40,140,80,0,200);
-    DrawString("Score: "$PC.NOMPoints,20,60,0,80,160,200);
+    //DrawString("Coins: "$PC.NOMCollected$"/"$PC.NOMNeededThisLevel,20,40,140,80,0,200);
+    //DrawString("Score: "$PC.NOMPoints,20,60,0,80,160,200);
 }
  
 defaultproperties

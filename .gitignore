@@ -16,7 +16,6 @@ UDK-2011-08/UDKGame/Movies/
 UDK-2011-08/UDKGame/Script/
 UDK-2011-08/UDKGame/Splash/
 UDK-2011-08/UDKGame/*.txt
-!UDK-2011-08/UDKGame/Config/*
 UDK-2011-08/UDKGame/Content/Maps/
 UDK-2011-08/UDKGame/Content/Mobile/
 UDK-2011-08/UDKGame/Content/Shared/
@@ -27,3 +26,4 @@ UDK-2011-08/UDKGame/Content/*.upk
 UDK-2011-08/UDKGame/Content/*.bin
 UDK-2011-08/UDKGame/Content/GameAssetDatabase.*
 !UDK-2011-08/UDKGame/Content/Nomon/*
+UDK/UDK-2011-08/UDKGame/Config/*

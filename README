@@ -1,1 +1,5 @@
-The future home for Nomon, the side scrolling puzzle platformer (we've never seen that before!)
+Nomon is a side-scrolling puzzle platformer made using the Unreal Development Kit. It was made for Design Studio 4 as a term project.
+
+== Setup
+
+Currently, setting up your development environment is complicated and subject to change, but the basic idea is to merge our UDK folder with yours and configuring some of the ini files to point to some of the changes. More details to come later!

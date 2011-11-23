@@ -20,7 +20,7 @@ defaultproperties
  ControllerClass=class'Nomon.NomonBot'
  bCanStrafe=false
  MaxStepHeight=50.0
- MaxJumpHeight=96
+ MaxJumpHeight=128
  JumpZ=550
  //Removes Double Jump
  MaxMultiJump =0

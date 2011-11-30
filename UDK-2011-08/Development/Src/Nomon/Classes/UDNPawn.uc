@@ -31,8 +31,8 @@ simulated event BecomeViewTarget( PlayerController PC )
 simulated function bool CalcCamera( float fDeltaTime, out vector out_CamLoc, out rotator out_CamRot, out float out_FOV )
 {
    //out_CamLoc = Location;
-   out_CamLoc.X = (oldLocX * fDeltaTime * tweenAmount+ Location.X) / (fDeltaTime * tweenAmount+1);
-   out_CamLoc.Z = (oldLocZ * fDeltaTime  * tweenAmount+ Location.Z) / (fDeltaTime * tweenAmount+1);
+   out_CamLoc.X = (oldLocX * fDeltaTime * tweenAmount+ Location.X) / (tweenAmount*fDeltaTime+1);
+   out_CamLoc.Z = (oldLocZ * fDeltaTime * tweenAmount+ Location.Z) / (tweenAmount*fDeltaTime+1);
    camDelta = Sqrt((oldLocX-out_CamLoc.X)*(oldLocX-out_CamLoc.X) + (oldLocZ-out_CamLoc.Z)*(oldLocZ-out_CamLoc.Z));
    oldLocX = out_CamLoc.X;
    oldLocZ = out_CamLoc.Z;
@@ -73,6 +73,6 @@ defaultproperties
    oldLocX = 0;
    oldLocZ = 0;
    CamOffsetDistance=-160.0;
-   tweenAmount = 600;
+   tweenAmount = 300;
    zoomAmount = 400;
 }

@@ -28,7 +28,7 @@ defaultproperties
 	AirSpeed=350.0 // From 440
 	WaterSpeed=220.0
 	AccelRate=1024.0 // Not so fast! From 2048
-	AirControl=+0.15 //.35 //From 0.05
+	AirControl=+0.20 //.35 //From 0.05
 	SlopeBoostFriction=0.2
 	mass = 0.8 // Default 1
 	
@@ -64,7 +64,7 @@ defaultproperties
 	bPhysRigidBodyOutOfWorldCheck=true
 	bRunPhysicsWithNoController=true
 
-	ControllerClass=class'UTGame.UTBot'
+	//ControllerClass=class'UTGame.UTBot'
 
 	LeftFootControlName=LeftFootControl
 	RightFootControlName=RightFootControl

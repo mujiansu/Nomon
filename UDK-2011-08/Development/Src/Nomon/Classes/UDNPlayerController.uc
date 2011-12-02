@@ -1,5 +1,6 @@
 class UDNPlayerController extends UTPlayerController;
 
+
 state PlayerWalking
 {
 ignores SeePlayer, HearNoise, Bump;
@@ -54,6 +55,6 @@ function UpdateRotation( float DeltaTime )
    SetRotation(ViewRotation);
 }   
 
-defaultproperties
+DefaultProperties
 {
 }

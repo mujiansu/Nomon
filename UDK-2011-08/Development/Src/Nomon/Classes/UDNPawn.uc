@@ -75,5 +75,4 @@ defaultproperties
    CamOffsetDistance=-160.0;
    tweenAmount = 300;
    zoomAmount = 400;
-   
 }

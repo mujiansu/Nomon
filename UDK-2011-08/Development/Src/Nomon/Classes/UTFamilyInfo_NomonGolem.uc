@@ -5,5 +5,5 @@ defaultproperties
 {
 	CharacterMesh=SkeletalMesh'NomonAvatar.Nomon_Golem_Large'
 	AnimSets(0)=AnimSet'NomonAvatar.GolemAnims'
-	PhysicsAsset = PhysicsAsset'NomonAvatar.Nomon_Golem_Physics'
+	DefaultPhysicsAsset = PhysicsAsset'NomonAvatar.Nomon_Golem_Large_Physics'
 }

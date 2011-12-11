@@ -3,7 +3,8 @@ Class UTFamilyInfo_NomonGolem extends UTFamilyInfo
 
 defaultproperties
 {
-	CharacterMesh=SkeletalMesh'NomonAvatar.Nomon_Golem_Large'
-	AnimSets(0)=AnimSet'NomonAvatar.GolemAnims'
-	PhysAsset=PhysicsAsset'NomonAvatar.Nomon_Golem_Physics'
+	CharacterMesh=SkeletalMesh'NomonAvatar.Nomon_Golem'
+  	AnimSets(0)=AnimSet'NomonAvatar.GolemAnims'
+	//DefaultPhysicsAsset = PhysicsAsset'NomonAvatar.Nomon_Golem_Physics'
+	//PhysAsset = PhysicsAsset'NomonAvatar.Nomon_Golem_Physics'
 }

@@ -1,6 +1,9 @@
 class NomonPawn extends UDNPawn
     dependson(UDNPawn);
  
+ var PhysicsAsset defaultPhysicsAsset;
+
+ 
 simulated function Tick(float DeltaTime)
 {
         local vector tmpLocation;
@@ -14,7 +17,10 @@ function bool Dodge(eDoubleClickDir DoubleClickMove)
 {
   return false;
 }
+simulated function SetCharacterClassFromInfo(class<UTFamilyInfo> Info)
+ {  Mesh.SetPhysicsAsset(defaultPhysicsAsset);
 
+}
 defaultproperties
 {
  ControllerClass=class'Nomon.NomonBot'
@@ -118,4 +124,6 @@ defaultproperties
 
 	SwimmingZOffset=-30.0
 	SwimmingZOffsetSpeed=45.0
+	
+
 }

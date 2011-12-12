@@ -53,6 +53,7 @@ defaultproperties
 	bCanClimbLadders=false
 	bCanPickupInventory=false
 	bStopOnDoubleLanding=false //Slows after duoble jump
+	bPushesRigidBodies=true
 	
 	//bAllowLedgeOverhang=false// Something to look into! //TRUE then allow the pawn to hang off ledges based on the cylinder extent
 	//bCanClimbUp = false // For "cover walls"

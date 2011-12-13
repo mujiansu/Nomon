@@ -44,8 +44,7 @@ function DrawString(string text, int X, int Y, int R, int G, int B, int A)
 function DrawGameHud()
 {
     //local NomonPlayerController PC;
- 
-    // Type cast the PlayerOwner property of the HUD to NomonPlayerController
+    //Type cast the PlayerOwner property of the HUD to NomonPlayerController
     //PC = NomonPlayerController(PlayerOwner);
  
     if (!PlayerOwner.IsDead())
@@ -64,5 +63,5 @@ function DrawGameHud()
  
 defaultproperties
 {
-   bCrosshairShow=false
+   bCrosshairShow=True
 }

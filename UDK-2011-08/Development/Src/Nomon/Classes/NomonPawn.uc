@@ -62,7 +62,7 @@ defaultproperties
 	TransInEffects(0)=class'UTEmit_TransLocateOutRed'
 	TransInEffects(1)=class'UTEmit_TransLocateOut'
 
-	SpawnProtectionColor=(R=40,G=40)
+	SpawnProtectionColor=(R=100,G=100,B=100)
 	TranslocateColor[0]=(R=20)
 	TranslocateColor[1]=(B=20)
 	DamageParameterName=DamageOverlay
@@ -80,9 +80,9 @@ defaultproperties
 	bEnableFootPlacement=true
 	
 //Sounds
-	ArmorHitSound=SoundCue'A_Gameplay.Gameplay.A_Gameplay_ArmorHitCue'
-	SpawnSound=SoundCue'A_Gameplay.A_Gameplay_PlayerSpawn01Cue'
-	TeleportSound=SoundCue'A_Weapon_Translocator.Translocator.A_Weapon_Translocator_Teleport_Cue'
+	//ArmorHitSound=SoundCue'A_Gameplay.Gameplay.A_Gameplay_ArmorHitCue'
+	SpawnSound=SoundCue'A_Ambient_NonLoops.Thunder.Thunder_Distant_Stereo_01_Cue'
+	TeleportSound=SoundCue'A_Ambient_NonLoops.Thunder.Thunder_Distant_Stereo_01_Cue'
 
 // Falling
 	//MaxFallSpeed=+1250.0 //Fall faster and you die!

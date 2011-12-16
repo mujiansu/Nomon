@@ -7,6 +7,7 @@ DefaultProperties
     PlayerControllerClass=Class'Nomon.NomonPlayerController'
     PlayerReplicationInfoClass=Class'Nomon.NomonPlayerReplicationInfo'
     BotClass=class'Nomon.NomonBot'
+	HUDType=class'Nomon.NomonHUD'
  
     bUseClassicHUD = true
  

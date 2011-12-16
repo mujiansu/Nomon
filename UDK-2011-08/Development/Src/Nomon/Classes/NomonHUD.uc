@@ -63,5 +63,5 @@ function DrawGameHud()
  
 defaultproperties
 {
-   bCrosshairShow=True
+   bCrosshairShow=False;
 }

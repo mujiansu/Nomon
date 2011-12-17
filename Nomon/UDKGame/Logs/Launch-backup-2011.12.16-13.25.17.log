@@ -1,0 +1,252 @@
+Log: Log file open, 12/16/11 13:11:59
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::LoadFile associated file:  ..\..\UDKGame\Config\UDKCompat.ini
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 8788
+Init: Epic Internal: 0
+Init: Compiled (32-bit): Aug 12 2011 20:18:11
+Init: Changelist: 976115
+Init: Command line: 
+Init: Base directory: C:\UDK\Nomon\Binaries\Win32\
+[0000.28] Init: Computer: NIK-LAPTOP
+[0000.28] Init: User: Nik
+[0000.28] Init: CPU Page size=4096, Processors=2
+[0000.28] Init: High frequency timer resolution =2.337939 MHz
+[0000.28] Init: Memory total: Physical=4.0GB (4GB approx) Pagefile=8.0GB Virtual=4.0GB
+[0000.28] Log: STEAMWORKS initialized 0
+[0000.32] Init: WinSock: I am Nik-Laptop (172.17.95.68:0)
+[0000.32] Init: Presizing for 83221 objects not considered by GC, pre-allocating 0 bytes.
+[0000.32] Init: Object subsystem initialized
+[0000.41] Init: OS stats:
+[0000.41] Init: 	Windows 7 Service Pack 1
+[0000.41] Init: 	RemoteDesktop=0
+[0000.41] Init: Memory stats:
+[0000.41] Init: 	Physical: 4094MB
+[0000.41] Init: 	Virtual: 4095MB
+[0000.41] Init: 	PageFile: 8186MB
+[0000.41] Init: CPU stats:
+[0000.41] Init: 	MeasuredPerformanceTime: 182.110 (stored result)
+[0000.41] Init: 	Hyperthreaded: 0
+[0000.41] Init: 	NumProcessorsPerCPU: 1
+[0000.41] Init: 	NumLogicalProcessors: 2
+[0000.41] Init: 	NumPhysicalProcessors: 2
+[0000.41] Init: 	MaxSpeed: 2401
+[0000.41] Init: 	CurrentSpeed: 2401
+[0000.41] Init: 	CoresPerProcessor: 2
+[0000.41] Init: 	IsOnBattery: 0
+[0000.41] Init: 	BatteryLevel: 186
+[0000.41] Init: 	Manufacturer: Intel
+[0000.41] Init: 	CPUName: INTEL Pentium-III
+[0000.41] Init: 	L1CacheSize: 32
+[0000.41] Init: 	L2CacheSize: -1
+[0000.41] Init: 	Architecture: x86
+[0000.41] Init: GPU stats:
+[0000.41] Init: 	VendorID: 000010DE
+[0000.41] Init: 	DeviceID: 00000407
+[0000.41] Init: 	DriverVersion: 8.17.12.8538
+[0000.41] Init: 	DeviceName: NVIDIA GeForce 8600M GT     
+[0000.41] Init: 	DriverName: nvd3dum.dll
+[0000.41] Init: 	PixelShaderVersion: 3
+[0000.41] Init: 	VertexShaderVersion: 3
+[0000.41] Init: 	VRAMQuantity: 256
+[0000.41] Init: 	DedicatedVRAM: 239
+[0000.41] Init: 	AdapterCount: 1
+[0000.41] Init: 	SupportsHardwareTnL: 1
+[0000.41] Init: Machine  detected compatibility level: Composite: 2. CPU: 5. GPU: 2.
+[0000.41] Init: Previous detected compatibility level: Composite: 2. CPU: 5. GPU: 2.
+[0000.47] Log: Shader platform (RHI): PC-D3D-SM3
+[0000.47] Error: Error, Manifest doesn't exist: ..\..\UDKGame\Script\Manifest.txt
+[0000.59] Log: PhysX GPU Support: DISABLED
+[0000.62] Init: Initializing FaceFX...
+[0000.62] Init: FaceFX 1.7.4 initialized.
+[0000.64] Init: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[0004.86] Init: Finished loading startup packages in 3.79 seconds
+[0004.88] Log: 66206 objects as part of root set at end of initial load.
+[0004.88] Log: 0 out of 0 bytes used by permanent object pool.
+[0004.88] Log: Initializing Engine...
+[0004.88] Warning: Warning, Failed to load 'ApexDestructibleDamageParameters UDK_APEXDamageMap.UDKDamageMap': Failed to find object 'ApexDestructibleDamageParameters UDK_APEXDamageMap.UDKDamageMap'
+[0004.95] Init: UEngine initialized
+[0004.96] Log: Working around XDK XAudio2 regression: TRUE
+[0004.98] Init: XAudio2Device initialized.
+[0005.00] Init: Client initialized
+[0006.26] Log: Steamworks is unavailable
+[0006.38] Log: LoadMap: UDKFrontEndMap?Name=Player?Team=255
+[0006.39] Log: 
+[0006.39] DevMemory: Memory allocations reported by the OS: 269.14 MB (with 0.00 MB waste)
+[0006.39] DevMemory: Virtual memory tracked in the allocators: 110.82 MB (with 99.95 MB used, 3.40 MB slack and 7.47 MB waste)
+[0006.44] Warning: Warning, Failed to load 'Class Nomon.NomonGameInfo': Failed to find object 'Class Nomon.NomonGameInfo'
+[0006.49] Warning: Warning, Failed to find object 'Class Nomon.NomonGameInfo'
+[0006.49] Log: Game class is 'GameInfo'
+[0006.54] Log: Primary PhysX scene will be in software.
+[0006.54] Log: Creating Primary PhysX Scene.
+[0006.54] Log: Bringing World UDKFrontEndMap.TheWorld up for play (0) at 2011.12.16-13.12.06
+[0006.55] Log: Bringing up level for play took: 0.026393
+[0006.55] ScriptWarning: Accessed None 'Profile'
+	UIDataStore_OnlinePlayerData Transient.DataStoreClient_0:UIDataStore_OnlinePlayerData_0
+	Function Engine.UIDataStore_OnlinePlayerData:OnLoginChange:0134
+[0006.55] ScriptWarning: Accessed None 'Profile'
+	UIDataStore_OnlinePlayerData Transient.DataStoreClient_0:UIDataStore_OnlinePlayerData_0
+	Function Engine.UIDataStore_OnlinePlayerData:OnLoginChange:0168
+[0006.55] Log: ########### Finished loading level: 0.164148 seconds
+[0006.55] Init: Game engine initialized
+[0006.55] Log: Initializing Engine Completed
+[0008.33] Log: >>>>>>>>>>>>>> Initial startup: 8.33s <<<<<<<<<<<<<<<
+[0008.45] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: scroll
+[0008.47] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: scroll
+[0008.48] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: scroll
+[0008.50] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: scroll
+[0008.51] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: scroll
+[0008.53] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: scroll
+[0008.55] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: scroll
+[0008.56] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: scroll
+[0008.59] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: scroll
+[0008.62] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: scroll
+[0008.65] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: scroll
+[0008.66] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: scroll
+[0008.68] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: scroll
+[0008.69] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: scroll
+[0008.76] Warning: Warning, Failed to load 'Texture UDKFrontEnd.gm_map_none': Failed to find object 'Texture UDKFrontEnd.gm_map_none'
+[0010.20] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0011.37] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOut
+[0011.40] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0012.94] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOut
+[0012.94] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0014.09] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: focusOut
+[0014.22] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0014.35] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOut
+[0014.35] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0014.38] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOut
+[0014.44] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0015.37] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOut
+[0015.37] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0015.71] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOut
+[0015.74] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0018.02] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOut
+[0018.02] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0018.11] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOut
+[0018.14] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0018.30] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOut
+[0018.30] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0018.63] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOut
+[0018.63] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0019.07] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: focusOut
+[0019.22] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0020.12] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOut
+[0020.13] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0020.30] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOut
+[0020.33] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0020.48] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOut
+[0020.89] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: focusOut
+[0021.04] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: rollOut
+[0022.70] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: focusOut
+[0022.88] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: focusOut
+[0023.24] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: rollOut
+[0023.37] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: focusOut
+[0023.37] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0023.40] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOut
+[0023.40] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0023.55] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOut
+[0023.55] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0023.91] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOut
+[0023.92] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0024.31] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: focusOut
+[0024.32] Warning: Warning, Failed to load 'Texture UDKFrontEnd.gm_map_none': Failed to find object 'Texture UDKFrontEnd.gm_map_none'
+[0025.84] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: focusOut
+[0026.09] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: focusOut
+[0026.25] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: focusOut
+[0026.34] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: rollOut
+[0026.46] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: focusOut
+[0026.46] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0026.73] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOut
+[0026.73] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0027.03] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOut
+[0027.04] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0027.41] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: focusOut
+[0027.56] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0029.04] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOut
+[0029.04] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0029.33] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOut
+[0029.33] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0029.58] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOut
+[0029.58] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0029.61] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOut
+[0029.61] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0029.71] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOut
+[0029.71] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0029.80] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOut
+[0029.83] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0029.99] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOut
+[0030.48] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: focusOut
+[0030.88] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: focusOut
+[0031.00] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: focusOut
+[0031.15] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: rollOut
+[0031.36] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: focusOut
+[0031.36] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0031.57] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOut
+[0031.57] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0032.04] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: focusOut
+[0032.18] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0032.37] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOut
+[0032.41] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0033.06] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOut
+[0033.06] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0033.30] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOut
+[0033.33] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0033.36] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOut
+[0033.39] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0033.48] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOut
+[0033.56] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0033.59] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: scroll
+[0033.62] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: scroll
+[0033.94] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOut
+[0033.97] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0034.28] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOut
+[0034.28] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0034.34] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOut
+[0034.34] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0034.40] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOut
+[0034.40] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0034.73] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOut
+[0034.76] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0034.95] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOut
+[0035.04] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: focusOut
+[0035.49] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: focusOut
+[0035.64] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: focusOut
+[0035.84] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: rollOut
+[0036.18] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: focusOut
+[0036.18] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0037.56] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOut
+[0037.62] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: focusOut
+[0037.66] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: rollOut
+[0045.88] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: focusOut
+[0045.88] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0046.00] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOut
+[0046.06] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0046.18] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOut
+[0046.21] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0046.34] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOut
+[0046.34] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0046.46] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOut
+[0049.77] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: focusOut
+[0055.06] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: focusOut
+[0056.01] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0056.04] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOut
+[0056.04] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0056.47] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOut
+[0056.47] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: itemRollOver
+[0056.86] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: focusOut
+[0057.98] ScriptLog: SoundTheme: ProcessSoundEvent - Unable to find a binding for event: focusOut
+[0058.47] Log: Closing by request
+[0058.47] Log: appRequestExit(0)
+[0059.54] ScriptWarning: Invalid user index (255) specified for ClearReadProfileSettingsCompleteDelegate()
+	OnlineSubsystemSteamworks Transient.OnlineSubsystemSteamworks_0
+	Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:ClearReadProfileSettingsCompleteDelegate:00FE
+[0059.54] Exit: Preparing to exit.
+[0059.75] Exit: Game engine shut down
+[0059.86] Exit: Windows client shut down
+[0059.86] Exit: XAudio2 Device shut down.
+[0059.96] Exit: Object subsystem successfully closed.
+[0059.96] Log: Shutting down FaceFX...
+[0059.96] Log: FaceFX shutdown.
+[0060.00] Exit: Exiting.
+[0060.01] Log: Log file closed, 12/16/11 13:12:59
